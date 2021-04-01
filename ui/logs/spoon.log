@@ -1,0 +1,6 @@
+java.lang.IllegalStateException: No context available outside of the request processing.
+	at org.eclipse.rap.rwt.internal.service.ContextProvider.getContext(ContextProvider.java:94)
+	at org.eclipse.rap.rwt.internal.service.ContextProvider.getUISession(ContextProvider.java:175)
+	at org.eclipse.rap.rwt.internal.lifecycle.LifeCycleUtil.setSessionDisplay(LifeCycleUtil.java:24)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:276)
+	at org.pentaho.di.ui.spoon.Spoon.main(Spoon.java:730)
